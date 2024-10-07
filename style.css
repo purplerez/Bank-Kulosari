@@ -67,7 +67,8 @@ p{
     display: block;
 }
 
-.password {block
+.password {
+    /* block */
     margin-bottom: 60px;
 }
 
