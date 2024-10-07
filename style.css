@@ -62,6 +62,7 @@ p{
     
 }
 .input{
+
     margin-left: 225px;
     margin-top: 30px;
     display: block;
@@ -72,29 +73,59 @@ p{
     margin-bottom: 60px;
 }
 
-.first {
-    margin-bottom: 10px;
+.container{
+    margin: 40px 170px;
+    width: 680px;
+    font-size: 10px;
     
-
-
 }
-.proses{
-    margin-left: -120px;
-    margin-top: 55px;
-    font-size: 36px;
+.entryarea{
+    position: relative;
+    line-height: 30px;
+    height: 30px;
+    
 }
-
-.first input {
+input{
+    position: absolute;
+    width: 50%;
+    outline: none;
+    font-size: 25px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 2px solid #f0ffff;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    line-height: 20px;
+}
+.labelline{
+    position: absolute;
+    font-size: 15px;
+    color: #f0ffff;
+    padding: 0 10px;
+    margin: 0 10px;
+    background-color: #295F98;
+    transition: 0.2s ease;
+}
+input:focus + .labelline,
+input:valid + .labelline{
+    color: rgb(255, 255, 255);
+    height: 25px;
+    line-height: 25px;
+    transform: translate(-15px, -16px) scale(0.88);
+    z-index: 1111;
+}
+.login button{
     padding: 10px;
-    border-radius: 5px;
-
+    font-size: 10px;
+    margin-left: 220px;
+    margin-top: 10px;
+    color: #070707;
+    width: 200px;
+    background-color: #CDC2A5;
+    border-radius: 7px;
 
 }
-.second input{
-    padding: 10px;
-    border-radius: 5px;
-}
-.login{
-    padding: 10px;
-    border-radius: 5px;
+.daftar{
+    margin-left: 110px;
 }
