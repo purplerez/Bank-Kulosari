@@ -2,18 +2,18 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial,sans-serif;
 }
 .logo{
-    width: 100%;
-    height: 100vh;
-    justify-content: left;
-    align-items: top;
-    display: flex;
-    background-color: #295F98;
+   width: 100%;
+   height: 100vh;
+   justify-content: left;
+   align-items: top;
+   display: flex;
+   background-color: #295F98;
 }
-}
-.image img{
-    border-radius: 50px;
+.logo img{
+    border-radius: 50%;
     height: 70px;
     width: 70px;
     border: 5px solid #D9D9D9;
@@ -22,7 +22,7 @@
 }
 .bg{
     height: 700px;
-    width: 55%;
+    width: 50%;
     background-image: url(image/bg.jpeg);
     background-size: cover;
     background-position: center;
@@ -30,26 +30,97 @@
     margin-top: -700px;
 }
 .perintah h2{
-    margin-left: 250px;
-    margin-top: -500px;
-    color: #D9D9D9;
-    font-size: 36px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-p{
     margin-left: 225px;
-    margin-top: -500px;
+    margin-top: -550px;
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-p{
+.perintah p{
     margin-left: 200px;
     margin-top: 20px;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-seriff;
-    
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .input{
     margin-left: 225px;
+    margin-top: 30px;
+    display: block;
 }
+
+.password {
+    margin-bottom: 60px;
+}
+
+.container{
+    margin: 40px 125px;
+    width: 680px;
+    font-size: 10px;
+    
+}
+.entryarea{
+    position: relative;
+    line-height: 30px;
+    height: 30px;
+    
+}
+input{
+    position: absolute;
+    width: 65%;
+    outline: none;
+    font-size: 15px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 2px solid #f0ffff;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    line-height: 20px;
+}
+.labelline{
+    position: absolute;
+    font-size: 15px;
+    color: #f0ffff;
+    padding: 0 10px;
+    margin: 0 10px;
+    background-color: #295F98;
+    transition: 0.2s ease;
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+    height: 25px;
+    line-height: 25px;
+    z-index: 1111;
+}
+
+.syarat input{
+    margin-left: -300px;
+    margin-top: -2px;
+    
+}
+.syarat{
+    margin-left: -100px;
+}
+.syarat p{
+    font-size: 10px;
+    margin-left: 160px;
+}
+.login button{
+    padding: 10px;
+    font-size: 10px;
+    margin-left: 220px;
+    margin-top: 10px;
+    color: #070707;
+    width: 200px;
+    background-color: #D9D9D9;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+}
+button:active {
+    letter-spacing: 3px;
+    background-color: #CDC2A5;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(72, 20, 167) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
